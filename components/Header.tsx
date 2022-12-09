@@ -25,14 +25,16 @@ export default function Header({ }: Props) {
                 />
             </div>
 
-            <div>
+            <div className='flex items-center text-gray-300 '>
                 <SocialIcon
                     className='cursor-pointer'
                     network="email"
                     fgColor='gray'
                     bgColor='transparent'
                 />
-                <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>
+                <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
+                    Get in Touch
+                </p>
             </div>
         </header>
     )
